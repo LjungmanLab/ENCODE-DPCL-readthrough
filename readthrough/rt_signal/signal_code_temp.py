@@ -858,11 +858,11 @@ def main():
     ### build datasets
     
     # cell type specific datasets
-    filepath = 'C:/Users/abmcs/Desktop/shared_biosamples/read-through/fused_dec/final_output/binning_test/'
-    listpath = 'C:/Users/abmcs/Desktop/shared_biosamples/read-through/fused_dec/final_output/binning_test/hg38.gencode_29.spikeins_1.basic.std.1_or_close_tes.gene_list.txt'
-    nspath = 'C:/Users/abmcs/Desktop/shared_biosamples/read-through/fused_dec/final_output/closest_genes/genes_closest_tes_downs_ns.bed'
-    sspath = 'C:/Users/abmcs/Desktop/shared_biosamples/read-through/fused_dec/final_output/closest_genes/genes_closest_tes_downs_ss.bed'
-    rpkmpath = 'C:/Users/abmcs/Desktop/shared_biosamples/ALLrpkm_ENCODE16CL_0h_genes.bed'
+    filepath = <path_to_working_directory>
+    listpath = <path_to_gene_list>
+    nspath = <path_to_downstream_genes_ns>
+    sspath = <path_to_downstream_genes_ss>
+    rpkmpath = <path_to_cellline_rpkms_bed>
     file_suffix = '.RTsegments.merged.bin_250.fixed_region_17377.sum_counts.bed'
     
     cell_list = ['A673', 'Caco2', 'Calu3', 'GM12878', 'HCT116', 'HepG2', 'HMEC', 'HUVEC', 'IMR90', 'K562', 'MCF10A', 'MCF7', 'OCILY7', 'panc1', 'PC3', 'PC9']
